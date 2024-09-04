@@ -6,6 +6,12 @@ import (
 	"github.com/Potat-Industries/go-potatFilters"
 )
 
+func ExampleTest_goodText() {
+	fmt.Println(potatFilters.Test("forsen won forsenE", potatFilters.FilterAll))
+
+	// Output: false
+}
+
 func ExampleTest_filterAll() {
 	fmt.Println(potatFilters.Test("retarded", potatFilters.FilterAll))
 
@@ -19,9 +25,9 @@ func ExampleTest_filterStrict() {
 }
 
 func ExampleTest_filterRemove() {
-	fmt.Println(potatFilters.Test("retarded", potatFilters.FilterAll.Remove(potatFilters.FilterRacism)))
+	fmt.Println(potatFilters.Test("retarded", potatFilters.FilterAll.Remove(potatFilters.FilterAbleism)))
 
-	// Output: true
+	// Output: false
 }
 
 func ExampleMatch_goodText() {
