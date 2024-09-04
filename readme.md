@@ -2,7 +2,7 @@
 
 ![Ermm](https://cdn.7tv.app/emote/637b3fba1d4a267ec1cd3364/4x.avif)
 
-![Go][ [pkg.go.dev](https://pkg.go.dev/github.com/Potat-Industries/go-potatFilters)
+[pkg.go.dev](https://pkg.go.dev/github.com/Potat-Industries/go-potatFilters)
 
 ## install
 
@@ -34,11 +34,11 @@ This package includes the following filters:
 and the following companions:
 
 - `FilterRacism`: FilterRacismGeneral | FilterRacismGeneralSlurs | FilterRacismRacoonWord | FilterRacismNWord | FilterRacismCWord | FilterRacismTWord | FilterRacismFWord | FilterRacismNonEnglishSlurs
-`FilterStrict`:  FilterRacism | FilterViolence | FilterSelfHarm | FilterSexualHarassment | FilterSexism | FilterAgeTos
+- `FilterStrict`:  FilterRacism | FilterViolence | FilterSelfHarm | FilterSexualHarassment | FilterSexism | FilterAgeTos
 - `FilterStrictEnglish`: FilterStrict &^ FilterRacismNonEnglishSlurs
 - `FilterAll`: FilterStrict | FilterAdvertising | FilterAbleism
 
-Most of the filters are not perfect, and there may be some false positives. But it should be good enough for most Twitch chat.
+Most of the filters are not perfect, and there may be some false positives. But it should be good enough for most Twitch chats.
 
 For most cases, you can use the `FilterStrict` or `FilterStrictEnglish`, You can also mix filters using `Filter.add(AnotherFilter)`;
 
