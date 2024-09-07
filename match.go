@@ -10,8 +10,10 @@ func Test(input string, filters Filter) bool {
 		return false
 	}
 
+	cleaned := ReplaceConfusable(input)
+
 	for _, r := range regexps {
-		if r.MatchString(input) {
+		if r.MatchString(cleaned) {
 			return true
 		}
 	}

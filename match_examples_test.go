@@ -47,3 +47,9 @@ func ExampleMatch_filterString() {
 
 	// Output: racism-n-word
 }
+
+func ExampleMatch_confusable() {
+	fmt.Println(potatFilters.Match("ոiɡɡаs", potatFilters.FilterAll))
+
+	// Output: racism-n-word
+}

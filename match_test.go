@@ -31,10 +31,12 @@ func TestBadText(t *testing.T) {
 		"women are objects",
 		"retarded",
 		"kys",
+		"𝙆𝚈s",
 		"kill your self",
 		"blackface",
 		"drink bleach",
 		"i'm 12 years old",
+		"ոiɡɡаs",
 	}
 
 	for _, text := range badText {
