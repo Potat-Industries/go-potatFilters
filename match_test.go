@@ -37,6 +37,9 @@ func TestBadText(t *testing.T) {
 		"drink bleach",
 		"i'm 12 years old",
 		"ոiɡɡаs",
+		"tura",
+		"szuwak",
+		"pidor",
 	}
 
 	for _, text := range badText {
