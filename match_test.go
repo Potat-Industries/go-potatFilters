@@ -40,6 +40,10 @@ func TestBadText(t *testing.T) {
 		"tura",
 		"szuwak",
 		"pidor",
+		"nickeurs",
+		"nickers",
+		"behead your self",
+		"bhead",
 	}
 
 	for _, text := range badText {
