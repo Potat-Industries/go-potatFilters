@@ -18,6 +18,7 @@ func TestTestGoodText(t *testing.T) {
 		"you truck potat into the bed with the power of a v8",
 		"i enjoyed my stay xqcL",
 		"01jb0ncqqk7nvx448xhped0676",
+		"01ffryc79r0007p57xyw0bjdjq",
 	}
 
 	for _, text := range goodTextKappa {
@@ -46,6 +47,8 @@ func TestBadText(t *testing.T) {
 		"behead your self",
 		"bhead",
 		"pedo",
+		"amerykaniec",
+		"kitajec",
 	}
 
 	for _, text := range badText {
