@@ -17,6 +17,7 @@ func TestTestGoodText(t *testing.T) {
 		"this text is a nothingburger",
 		"you truck potat into the bed with the power of a v8",
 		"i enjoyed my stay xqcL",
+		"01jb0ncqqk7nvx448xhped0676",
 	}
 
 	for _, text := range goodTextKappa {
@@ -44,6 +45,7 @@ func TestBadText(t *testing.T) {
 		"nickers",
 		"behead your self",
 		"bhead",
+		"pedo",
 	}
 
 	for _, text := range badText {
