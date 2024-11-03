@@ -29,7 +29,6 @@ This package includes the following filters:
 - `FilterAbleism`
 - `FilterAdvertising`
 - `FilterAgeTos`
-- `filterEnd`
 
 and the following companions:
 

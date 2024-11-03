@@ -28,5 +28,5 @@ var (
 
 	potatAdvertising = regexp.MustCompile(`(?i)(?:[f]+[o0]+[l1]+[o0]+[w]+[s]?|raid|host|w(a|4)tch|view|ch(e|3)ck|j(o|0)in|(?:go|come)\s?to)\s(?:o(?:ut|n))?\s?(?:m[ye]|us|him|her|them)\s(?:stream|channel|live|out\b)|(?:i'?m|we're|us|s?he'?s?|they'?re)\s?(?:live|streaming)|(f|f[o0][wl]|flw|[f]+[o0]+[1l]+[o0]+[w]+[s]?)\s*(4|f(o|0)r)\s*(f|f[o0][wl]|flw|[f]+[o0]+[l1]+[o0]+[w]+[s]?)|[f]+[o0]+[l1]+[o0]+[w]+[s]? (me|them|us|him|her|b(4|a)ck)|f[0o]ll[0o]w[i1]ng ([e3]v[3e]ry(one|1)|anyone)?\s?(b[a4]ck)?`)
 
-	potatAgeTos = regexp.MustCompile(`(?i)\b(?:(?:i|my age)\s*['’]?\s*(?:am|'m|m| is|will be)\s*(?:(under|below)\s*)?(?:less\s*than\s*)?\s+(1[0-4]|[5-9]|(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen)))`)
+	potatAgeTos = regexp.MustCompile(`(?i)\b(?:(?:i|my age)\s*['’]?\s*(?:am|'m|m| is|will be)\s*(\s|under|below|less|than|actually)*\s*(1[0-5]\b|[1-9]\b|(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|underage)))`)
 )
