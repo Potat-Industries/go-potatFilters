@@ -22,6 +22,7 @@ func TestTestGoodText(t *testing.T) {
 		"ඞ",
 		"im 20",
 		"i'm 61",
+		"3f9dfa4",
 	}
 
 	for _, text := range goodTextKappa {
@@ -62,6 +63,12 @@ func TestBadText(t *testing.T) {
 		"im actually under 14",
 		"i'm actually below 12",
 		"im actually underage",
+		"pidor",
+		"fa4",
+		"fag",
+		"tranny",
+		"women are objects",
+		"women are nothing more than objects",
 	}
 
 	for _, text := range badText {
