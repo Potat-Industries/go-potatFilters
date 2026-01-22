@@ -36,7 +36,6 @@ func TestTestGoodText(t *testing.T) {
 
 func TestBadText(t *testing.T) {
 	badText := []string{
-		"women are objects",
 		"retarded",
 		"kys",
 		"𝙆𝚈s",
@@ -66,15 +65,25 @@ func TestBadText(t *testing.T) {
 		"i'm actually below 12",
 		"im actually underage",
 		"pidor",
-		"fa4",
-		"fag",
 		"tranny",
 		"women are objects",
 		"women are nothing more than objects",
 		"niger",
 		"niga",
 		"nigga",
+		"nigger",
+		"faggot",
+		"rape",
+		"RA͒P͒E͒D͒",
+		"fa4",
+		"faqq",
 		"fag", // i mean we have to test it
+		"faqq",
+		"helloniggas :)",
+		"negger",
+		"nogger",
+		"n1gger",
+		"n111111gg3r",
 	}
 
 	for _, text := range badText {
